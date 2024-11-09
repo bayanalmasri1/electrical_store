@@ -32,7 +32,14 @@ class HomeBody extends StatelessWidget {
                   itemindex: index,
                   product: products[index],
                   onpress: () {
-                   
+                   Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => Detailscreen(
+                          product:products[index]
+                        ),
+                      ),
+                    );
                   }))
         ]))
       ]),

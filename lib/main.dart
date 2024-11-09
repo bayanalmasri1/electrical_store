@@ -1,7 +1,5 @@
 import 'package:electrical_app/constants.dart';
-import 'package:electrical_app/screens/details_screen.dart';
 import 'package:electrical_app/screens/home_screen.dart';
-import 'package:electrical_app/widgets/home/home_body.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';

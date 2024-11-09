@@ -11,7 +11,10 @@ class Detailscreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: kPrimaryColor,
      appBar: detailsAppBar(context),
-      body: Detailsbody(product: product),
+      body: SingleChildScrollView(child: Padding(
+        padding: const EdgeInsets.all(8.0),
+        child: Detailsbody(product: product),
+      )),
 
     );
   }
